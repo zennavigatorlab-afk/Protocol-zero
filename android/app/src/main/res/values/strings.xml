@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PROTOCOL ZERO</string>
+    <string name="status_connected">ONLINE / SECURE</string>
+    <string name="status_disconnected">DEVICE NOT CONNECTED</string>
+    <string name="data_unavailable">DATA UNAVAILABLE</string>
+    <string name="firmware_pending">AWAITING FIRMWARE INTEGRATION</string>
+</resources>

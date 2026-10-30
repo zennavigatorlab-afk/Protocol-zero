@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #06090e;
+    color: #e2e8f0;
+    font-family: 'JetBrains Mono', monospace;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-hud {
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 0.05em;
+  }
+}
+
+/* Tactical CRT / HUD Grid Lines */
+.hud-grid {
+  background-image: 
+    linear-gradient(to right, rgba(0, 240, 118, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 240, 118, 0.03) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.hud-border {
+  border: 1px solid rgba(0, 240, 118, 0.2);
+  box-shadow: 0 0 15px rgba(0, 240, 118, 0.05), inset 0 0 15px rgba(0, 240, 118, 0.02);
+}
+
+.hud-border-cyan {
+  border: 1px solid rgba(0, 229, 255, 0.25);
+  box-shadow: 0 0 15px rgba(0, 229, 255, 0.07), inset 0 0 15px rgba(0, 229, 255, 0.02);
+}
+
+.hud-border-amber {
+  border: 1px solid rgba(255, 183, 3, 0.3);
+  box-shadow: 0 0 15px rgba(255, 183, 3, 0.08);
+}
+
+.hud-border-red {
+  border: 1px solid rgba(255, 46, 99, 0.35);
+  box-shadow: 0 0 15px rgba(255, 46, 99, 0.1);
+}
+
+/* Custom scrollbars for cybernetic terminal feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090e14;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00f076;
+}

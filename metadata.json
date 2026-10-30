@@ -1,0 +1,7 @@
+{
+  "name": "PROTOCOL ZERO",
+  "description": "Tactical IoT and Live Network Monitoring Hub with ESP32-CAM stream, Wi-Fi telemetry, and Native Android Kotlin Jetpack Compose companion application.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
